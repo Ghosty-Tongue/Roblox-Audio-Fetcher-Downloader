@@ -16,7 +16,7 @@ A GUI tool to download audio assets from Roblox.
 > **Need Help?**
 > If you require assistance or have questions about using the tool, refer to the detailed instructions provided in the [howto.txt](howto.txt) file.
 
-> The Place Id as to have Audio Id/Asset Id connected to the place id
+> The Place Id as to have Audio Id/AssetId connected to the place id
 
 > Here is a Video Tutorial: https://www.youtube.com/watch?v=7jmCUQoU7ac
 

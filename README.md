@@ -1,45 +1,63 @@
 # Roblox Audio Fetcher Downloader
 
-A GUI tool to download audio assets from Roblox.
+A CLI tool to download audio assets from Roblox using asset IDs and place ID.
 
 > **Note:** We recommend using a Roblox alternate account (alt) and its corresponding `.ROBLOSECURITY` cookie to avoid potential security and privacy risks.
 
 > **For Roblox Script Execution:**
-> If you'd like to use this script, you can execute the provided Lua script in your game. Use the following command in any roblox exploit executor:
+> If you'd like to use this script, you can execute the provided Lua script in your game. Use the following command in any Roblox exploit executor:
 >
 > ```lua
 > loadstring(game:HttpGet('https://pastebin.com/raw/q1BeVNMG', true))()
 > ```
 >
-> If you have concerns about the script's safety, you can visit the [Pastebin URL](https://pastebin.com/raw/q1BeVNMG) directly to review the code. 
+> If you have concerns about the script's safety, you can visit the [Pastebin URL](https://pastebin.com/raw/q1BeVNMG) directly to review the code.
 
 > **Need Help?**
 > If you require assistance or have questions about using the tool, refer to the detailed instructions provided in the [howto.txt](howto.txt) file.
 
-> The Place Id as to have Audio Id/AssetId connected to the place id
+> **Important:** The Place ID must have associated audio assets (Audio ID/Asset ID) connected to it.
 
-> Here is a Video Tutorial: https://www.youtube.com/watch?v=7jmCUQoU7ac
+> **Video Tutorial:** Watch the full setup and usage guide [here](https://www.youtube.com/watch?v=7jmCUQoU7ac).
+
+---
+
+## Table of Contents
+- [Usage](#usage)
+- [Requirements](#requirements)
+- [License](#license)
+
+---
 
 ## Usage
 
-1. Clone or download the repository.
+1. **Clone or download the repository.**
 
-2. Install the required Python packages: ```pip install requests```
-  
-3. Run the audio.py script using Python: ```python audio.py```
+2. **Install the required packages:**
+   ```bash
+   pip install requests colorama
+   ```
 
-4. Enter your Roblox cookie (.ROBLOSECURITY) and the target place ID in the GUI.
+3. **Run the script:**
+   ```bash
+   python audio.py
+   ```
 
-5. Choose a text file containing a list of asset IDs separated by commas.
+4. **Provide inputs in the terminal:**
+   - Enter your Roblox cookie (`.ROBLOSECURITY`).
+   - Enter the target Place ID.
+   - Provide a list of asset IDs separated by commas.
 
-6. Click the "Download All Audio Files" button to start downloading.
+5. **Audio files will be saved in the `audio_files` folder.**
 
-7. Downloaded audio assets will be stored in the audio_files folder.
+---
 
-   # Requirements
-Python 3.x
-Tkinter (usually included with Python)
-Requests library
+## Requirements
+- Python 3.x
+- `colorama` (for colored output)
+- `requests` library
 
-# License
+---
+
+## License
 This project is licensed under the MIT License.
